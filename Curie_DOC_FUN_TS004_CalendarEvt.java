@@ -11,6 +11,8 @@ public class Curie_DOC_FUN_TS004_CalendarEvt extends OpenURL
 	   driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	   Utility util = new Utility(driver, prop, logger); 
 	   
+	   /// checking
+	   
 	   //To call login method to create slots for logged In User
 	   commonmethods meth=new commonmethods(driver, prop);
 	   meth.login(username, password);		
