@@ -1,12 +1,18 @@
 
+<<<<<<< HEAD
 
 
    
+=======
+//class has being deleted
+	
+  @Test(dataProvider="dp")    
+
   public void calendar(String username,String password,String date) throws Exception
   {
 	   
-	   driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-	   Utility util = new Utility(driver, prop, logger); 
+
+
 	   
 	   //To call login method to create slots for logged In User
 	   commonmethods meth=new commonmethods(driver, prop);
@@ -64,7 +70,13 @@
 	    System.out.println(tabrow.size());
 	    List<WebElement> calcols= driver.findElements(By.xpath(prop.getProperty("cal_cols")));
 	    System.out.println(calcols.size());
-	    
+
+
+
+
+			// fiole upload successfullty
+
+
 	    for(int k=1;k<=tabrow.size();k++)
 	    {
 	    	for(int j=1;j<=calcols.size();j++)
