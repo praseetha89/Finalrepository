@@ -1,19 +1,4 @@
-package testcases_DoctorModules;
-import java.io.IOException;
-import java.util.List;
-import java.util.concurrent.TimeUnit;
-import org.apache.log4j.Logger;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebElement;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
-import methods.ExcelUtil;
-import methods.OpenURL;
-import methods.Utility;
-import methods.commonmethods;
+
 
 public class Curie_DOC_FUN_TS004_CalendarEvt extends OpenURL
 {
