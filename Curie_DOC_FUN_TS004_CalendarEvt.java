@@ -13,7 +13,7 @@ public class Curie_DOC_FUN_TS004_CalendarEvt extends OpenURL
 	   
 	   /// checking
 
-	  // update dfiles
+
 	   
 	   //To call login method to create slots for logged In User
 	   commonmethods meth=new commonmethods(driver, prop);
