@@ -1,9 +1,4 @@
 
-<<<<<<< HEAD
-
-
-   
-=======
 //class has being deleted
 	
   @Test(dataProvider="dp")    
@@ -13,6 +8,8 @@
 	   
 
 
+	 //loading
+	  //updating
 	 //loading
 	  //updating
 }
